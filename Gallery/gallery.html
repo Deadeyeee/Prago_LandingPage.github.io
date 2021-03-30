@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Gallery</title>
+    <style type="text/css">
+
+.top{
+	border-radius: 500px;
+	width: 50px;
+	height: 50px;
+	opacity: .3;
+	float: right;
+	margin-right: 30px;
+	margin-bottom: 10px;
+    left: 1;
+    top: 1;
+	right: 0;
+	bottom: 0;
+	position: fixed;
+    border: none;
+}
+
+.top:hover{
+	opacity: 1;
+	border: none;
+	box-shadow: 5px 10px 10px black;
+}
+ body{
+        margin: 0px;
+        background-color: #089985;
+    }
+
+    .content{
+        width: 98%;
+        background-color: #2D3032;
+        height: 1200px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+
+    img{
+        width: 250px;
+        height: 250px;
+        margin-left: 15px;
+        margin-top: 20px;
+        border:inset 10px;
+    }
+
+    .thumbnail{
+        width: 300px;
+        height: 350px;
+        background-color: #ffebe2;
+        display: inline;
+        margin: 80px;
+        float: left;
+        border-radius: 10px;
+        box-shadow: 10px 15px 10px black;
+    }
+
+    .thumbnail:hover{
+        box-shadow: none;
+    }
+
+    .picture{
+        display: inline;
+    }
+
+
+    .navbar{
+	background-color: #432947;
+	height: 100px;
+	top: 0;
+	position: sticky;
+
+}
+
+
+.menu{
+	float: right;
+	height: 30px;
+	margin-top: 35px;
+	margin-right: 10px;
+}
+
+span a{
+	color: rgb(255, 222, 144);
+	text-decoration: none;
+	font-size: 1.5em;
+	padding: 10px 20px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	letter-spacing: 0px;
+	word-spacing: 0px;
+}
+span a:hover{
+	border: solid #089985;
+	border-radius: 10px;
+	background-color: #781188;
+}
+
+
+span a:active{
+	border: solid #089985;
+	border-radius: 10px;
+	background-color: #720d61;
+}
+
+.myfilm{
+	background-color: #781188;
+	text-decoration: underline;
+	border-radius: 10px;
+}
+
+.myfilm:hover{
+	border: none;
+	border-radius: none;
+	
+}
+
+
+.cathegories{
+    width: 740px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+
+.catheg a{
+	color: rgb(225, 255, 200);
+	text-decoration: none;
+	font-size: 1.5em;
+	padding: 10px 20px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	letter-spacing: 0px;
+	word-spacing: 0px;
+}
+.catheg a:hover{
+	border: solid #781188;
+	border-radius: 10px;
+	background-color: #720d3c;
+}
+
+
+.catheg a:active{
+	border: solid #781188;
+	border-radius: 10px;
+	background-color: #089985;
+    color: black;
+}
+
+.selected{
+	background-color: #720d3c;
+	text-decoration: underline;
+	border-radius: 10px;
+}
+
+.selected:hover{
+	border: none;
+	border-radius: none;
+	
+}
+    </style>
+</head>
+<body id="top">
+    <!--PRAGO, JHIMWEL-->
+    <!--DATE: -->
+    
+	<div class="navbar">
+        <div class="menu">
+        <span><a href="../landing_page.html">Home</a></span>
+        <span><a href="../Mybeat/MyBeat.html">My Beat</a></span>
+        <span><a href="../Myfilm/MyFilm.html" >My Kind Film</a></span>
+        <span><a href="../Gallery/gallery.html"  class="myfilm">Gallery</a></span>
+        <span><a href="../About me/PRAGO_LIFESTORY_ITBD.HTML">About me</a></span>
+        <span><a href="PRAGO_RESUME_ITBD.html"">Resume</a></span>
+    </div>
+    </div>
+    <div class="content">
+        <div class="cathegories">
+            <span class="catheg"><a href="gallery_family.html" class="selected">Family Pictures</a></span>
+            <span class="catheg"><a href="gallery_college.html">College Friends</a></span>
+            <span class="catheg"><a href="gallery_selfie.html" >Selfies</a></span>
+            <span class="catheg"><a href="gallery_film.html" >My kind of film</a></span>
+
+        </div>
+        
+    <hr color="white">
+
+        <div class="thumbnail">
+            <div class="picture">
+                <img src="family7.jpg" alt="family picture">
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="picture">
+                <img src="family6.jpg" alt="family picture">
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="picture">
+                <img src="family5.jpg" alt="family picture">
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="picture">
+                <img src="family4.jpg" alt="family picture">
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="picture">
+                <img src="family3.jpg" alt="family picture">
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="picture">
+                <img src="family2.jpg" alt="family picture">
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="picture">
+                <img src="family1.jpg" alt="family picture">
+            </div>
+        </div>
+    </div>
+
+    <div class="backToTop">
+        <a href="#top"><img src="../backToTop.jpg" class="top"></a>
+    </div>
+</body>
+</html>

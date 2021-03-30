@@ -15,6 +15,7 @@
 
 	body{
 		background-color: #089985;
+		margin: 0px;
 	}
 	p{
 		margin: 0px;
@@ -35,6 +36,7 @@
 	.container{
 		background-color: #747474;
 		box-shadow: 0px 0px 30px black;
+		margin: 8px;
 	}
 	.content{
 		background-color: #272727;
@@ -64,10 +66,10 @@
 		font-family:Verdana, Geneva, Tahoma, sans-serif;
 		background-color:  #ffe400;
 		padding: 20px;
-		font-size: 40px;
+		font-size: 30px;
 		font-weight: bold;
 		margin-top: 200px;
-		margin-right: 50px;
+		margin-right: 30px;
 		box-shadow: 5px 10px 10px black;
 		text-decoration: none;
 		color: black;
@@ -100,7 +102,6 @@
 	}
 
 	.link{
-		margin-left: 60px;
 		margin-top: 60px;
 	}
 
@@ -158,4 +159,73 @@
         color: #747474;
 		text-decoration: none;
     }
+
+	.home{
+		background-color: #781188;
+		text-decoration: underline;
+		border-radius: 10px;
+	}
+
+	.home:hover{
+		border: none;
+		border-radius: none;
+		background-color: #781188;
+	}
 	
+
+	.navbar{
+		background-color: #432947;
+		height: 100px;
+		top: 0;
+		position: sticky;
+        z-index: 1;
+
+	}
+
+
+	.menu{
+		float: right;
+		height: 30px;
+		margin-top: 35px;
+		margin-right: 10px;
+	}
+
+	span a{
+		color: rgb(255, 222, 144);
+		text-decoration: none;
+		font-size: 1.5em;
+		padding: 10px 20px;
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		letter-spacing: 0px;
+		word-spacing: 0px;
+	}
+	span a:hover{
+		border: solid #089985;
+		border-radius: 10px;
+		background-color: #781188;
+	}
+
+	
+	span a:active{
+		border: solid #089985;
+		border-radius: 10px;
+		background-color: #720d61;
+	}
+
+
+	.top{
+		border-radius: 500px;
+		width: 50px;
+		height: 50px;
+		opacity: .1;
+		float: right;
+		margin-right: 30px;
+		position: fixed;
+		bottom: 5;
+		right: 0;
+	}
+
+	.top:hover{
+		opacity: 1;
+		box-shadow: 5px 10px 10px black;
+	}
