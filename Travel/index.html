@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css">
+    body{
+        margin: 0px;
+        background-color: #089985;
+    }
+
+
+    img{
+        border-radius: 20px;
+        box-shadow: 5px 10px 20px rgb(11, 41, 38);
+    }
+
+    .home{
+		background-color: #781188;
+		text-decoration: underline;
+		border-radius: 10px;
+	}
+
+	.home:hover{
+		border: none;
+		border-radius: none;
+		background-color: #781188;
+	}
+	
+
+	.navbar{
+		background-color: #432947;
+		height: 100px;
+		top: 0;
+		position: sticky;
+        z-index: 1;
+
+	}
+
+
+	.menu{
+		float: right;
+		height: 30px;
+		margin-top: 35px;
+		margin-right: 10px;
+	}
+
+	span a{
+		color: rgb(255, 222, 144);
+		text-decoration: none;
+		font-size: 1.5em;
+		padding: 10px 20px;
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		letter-spacing: 0px;
+		word-spacing: 0px;
+	}
+	span a:hover{
+		border: solid #089985;
+		border-radius: 10px;
+		background-color: #781188;
+	}
+
+	
+	span a:active{
+		border: solid #089985;
+		border-radius: 10px;
+		background-color: #720d61;
+	}
+
+    h1{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 2.1em;
+        color: #272727;
+    }
+
+
+    area{
+        outline-color: blanchedalmond;
+    }
+
+    p{
+        font-size: 2em;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .info{
+        background-color: blanchedalmond;
+        width: 20%;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 5px 10px 10px black;
+    }
+    
+    </style>
+
+    <script language="JavaScript">
+        function writeText(txt){
+            document. getElementById("desc").innerHTML=txt;
+        }
+        
+        function dissolveText(txt){
+            document.getElementById("desc").innerHTML=txt;
+        }
+    </script>
+</head>
+
+<body>
+    <!--PRAGO, JHIMWEL-->
+    <!--DATE: -->
+
+    <div class="navbar">
+        <div class="menu">
+        <span><a href="../index.html">Home</a></span>
+        <span><a href="../Mybeat/MyBeat.html">My Beat</a></span>
+        <span><a href="../Myfilm/MyFilm.html">My Kind Film</a></span>
+        <span><a href="../Gallery/index.html">Gallery</a></span>
+        <span><a href="../About me/PRAGO_LIFESTORY_ITBD.HTML">About me</a></span>
+        <span><a href="../Resume/PRAGO_RESUME_ITBD.html">Resume</a></span>
+        <span><a href="index.html"  class="home">Travel</a></span>
+    </div>
+    </div>
+
+    <div class="content" align="center">
+        <h1>The Dream Places</h1>
+
+        <img src="imagetomap.png" usemap="#travel">
+        <map name="travel">
+            <area onmouseout="dissolveText('');" onmouseover="writeText('Maldives');" alt="maldives" title="maldives" href="maldives.html" coords="674,368,785,445" shape="rect">
+            <area onmouseout="dissolveText('');" onmouseover="writeText('San Francisco');" alt="San francisco" title="San francisco" href="Sfrancisco.html" coords="268,409,53" shape="circle">
+            <area onmouseout="dissolveText('');" onmouseover="writeText('Japan');" alt="japan" title="japan" href="japan.html" coords="502,125,41" shape="circle">
+            <area onmouseout="dissolveText('');" onmouseover="writeText('Singapore');" alt="singapore" title="singapore" href="singapore.html" coords="341,231,327,214,313,203,301,200,294,198,301,191,296,182,292,182,287,177,278,177,273,175,273,168,273,161,275,156,275,151,273,147,280,137,285,135,287,135,292,130,296,130,306,133,315,140,322,140,322,144,336,154,341,156,336,158,348,165,355,168,350,172,362,179,373,193,378,205,369,219,357,233,350,238,347,236" shape="poly">
+            <area onmouseout="dissolveText('');" onmouseover="writeText('France');" alt="france" title="france" href="france.html" coords="608,196,633,192,640,186,645,189,662,178,684,164,707,142,719,138,727,131,719,145,712,152,692,170,674,192,664,208,662,216,656,249,642,233,650,221,634,205,621,210" shape="poly">
+        </map>
+
+    </div>
+
+    <div class="info">
+        <p id="desc"></p></div>
+</body>
+</html>

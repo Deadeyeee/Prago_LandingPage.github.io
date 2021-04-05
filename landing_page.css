@@ -49,6 +49,7 @@
 		font-family:Verdana, Geneva, Tahoma, sans-serif;
 		font-weight: bold;
 		font-size: 35px;
+		margin-left: 40px;
 	}
 	.quote{
 		width: 1000px;
@@ -65,12 +66,13 @@
 	.link a{
 		font-family:Verdana, Geneva, Tahoma, sans-serif;
 		background-color:  #ffe400;
-		padding: 20px;
+		padding: 15px;
 		font-size: 30px;
 		font-weight: bold;
 		margin-top: 200px;
-		margin-right: 30px;
+		margin-right: 10px;
 		box-shadow: 5px 10px 10px black;
+		border-radius: 5px;
 		text-decoration: none;
 		color: black;
 	}
@@ -228,4 +230,10 @@
 	.top:hover{
 		opacity: 1;
 		box-shadow: 5px 10px 10px black;
+	}
+
+
+
+	.image, .link2{
+		margin-left: 30px;
 	}
